@@ -1098,7 +1098,7 @@
 	}
 
 	a {
-		color: #ec1f1f;
+		color: #fff;
 	}
 
 	section > :last-child, section:last-child, article > :last-child, article:last-child {
@@ -1139,9 +1139,9 @@
 	  bottom: 0;
 	  left: 0;
 	  right: 0;
-	  margin: 0 0 1em 0;
+	  margin: 0 0 0em 0;
 	  opacity: 1;
-	  transition: .5s ease;
+	  transition: 0s ease;
 	background-color:rgba(0,0,0,0);
 
 	}
@@ -1214,7 +1214,7 @@
 		-webkit-transition: background-color 0.25s ease-in-out;
 		-ms-transition: background-color 0.25s ease-in-out;
 		transition: background-color 0.25s ease-in-out;
-		background: #ec1f1f;
+		background: #535353;
 		text-decoration: none;
 		font-style: italic;
 		color: #FFFFFF;
@@ -1328,18 +1328,18 @@
 			-ms-transition: background-color 0.25s ease-in-out;
 			transition: background-color 0.25s ease-in-out;
 			display: inline-block;
-			margin: 0 1em 0 0em;
+			margin: 0 0em 0 0em;
 			padding: 0em 0em;
 			text-decoration: none;
 			font-size: 0em;
 			font-style: italic;
-			color: #787878;
+		
 			cursor: pointer;
 		}
 
 			ul.style4 li:hover, ul.style4 li.active {
-				background: #ededed;
-				color: #454545;
+			
+			
 			}
 
 	ul.style5 li {
@@ -1952,7 +1952,7 @@
 			}
 
 			ul.style4 {
-				margin-bottom: 2em;
+				margin-bottom: 0em;
 				text-align: center;
 			}
 
@@ -1967,7 +1967,7 @@
 					text-decoration: none;
 					font-size: 1.25em;
 					font-style: italic;
-					color: #787878;
+				
 				}
 
 			.button {
@@ -2008,8 +2008,7 @@
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #101010 url("images/bg02.jpg") no-repeat left top;
-				background-size: 100% 100%;
+				
 			}
 
 				#titleBar .title {
@@ -2018,7 +2017,7 @@
 					top: 0;
 					display: block;
 					width: 100%;
-					line-height: 44px;
+					line-height: 55px;
 					font-size: 1.1em;
 					font-weight: 300;
 					color: #fff;
@@ -2159,10 +2158,11 @@
 		/* Bar */
 
 			#bar {
-				overflow: hidden;
-				margin-top: -3px;
-				background-size: 100% 100%;
-				padding: 1em 0 0em 0;
+				position: relative;
+		overflow: hidden;
+		background: #555555;
+		height: 0.1em;
+		background-size: 100% 4%;
 			}
 
 				#bar h2, #bar p {
@@ -2179,6 +2179,13 @@
 				#bar p {
 					display: none;
 				}
+
+
+
+
+
+
+
 
 		/* Slider */
 
@@ -2238,7 +2245,7 @@
 		/* Content */
 
 			.no-sidebar #content, .left-sidebar #content, .right-sidebar #content {
-				padding: 2em 0em 0em 0em;
+				padding: 0em 0em 0em 0em;
 			}
 
 		/* Sidebar */
