@@ -2008,6 +2008,7 @@
 				top: 0;
 				width: 100%;
 				z-index: 10001;
+				background: #101010 url("images/bg02.jpg") no-repeat left top;
 				background-size: 100% 100%;
 				
 			}
